@@ -1,6 +1,6 @@
 import React from "react";
-import Navigation from "./components/navigation";
-import PageRenderer from "./components/page-renderer";
+import Navigation from "./components/common/navigation";
+import PageRenderer from "./page-renderer";
 
 import {
   BrowserRouter as Router,
