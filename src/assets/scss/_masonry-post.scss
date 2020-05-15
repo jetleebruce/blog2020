@@ -41,26 +41,14 @@
         color: $text-light;
     }
 
-    .tags-container {
-        font-size: 12px;
-        font-weight: 500;
-        margin-bottom: 15px;
-        margin-left: -1px;
-        color: white;
-
-        .tag {
-            border-radius: 5px;
-            padding: 4px 8px;
-            margin-right: 5px;
-        }
-    }
+    
+}
 
     @media screen and (max-width: 900px) {
         .masonry-post-image {
             width: 100%;
             margin: 10px 0;
             height: 300px;
-            
+
         }
     }
-}
