@@ -6,7 +6,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Tech cultures", "Tech News"],
     link: "#",
-    image: "anyone_can_code.jpg",
+    image: "n10.jpg",
   },
 
   {
@@ -14,7 +14,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Cloud"],
     link: "#",
-    image: "cloud_storage.jpg",
+    image: "n10.jpg",
   },
 
   {
@@ -22,7 +22,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Tech cultures", "Tech News"],
     link: "#",
-    image: "programm_languages.jpg",
+    image: "n10.jpg",
   },
 
   {
@@ -30,6 +30,6 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Brian Health"],
     link: "#",
-    image: "neuron.jpg",
+    image: "n10.jpg",
   },
 ];
