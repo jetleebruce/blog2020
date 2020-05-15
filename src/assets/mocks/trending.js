@@ -6,7 +6,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["React", "JavaScript"],
     link: "#",
-    image: "warpeace.jpg",
+    image: "n6.jpg",
   },
 
   {
@@ -14,15 +14,15 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Tech Cultures"],
     link: "#",
-    image: "warpeace.jpg",
+    image: "n6.jpg",
   },
 
   {
     title: "WebDev salary in 2020",
     date: moment().format("MMMM DD, YYYY"),
-    categories: ["Tech Cultures"],
+    categories: ["Tech News"],
     link: "#",
-    image: "warpeace.jpg",
+    image: "n6.jpg",
   },
 
   {
@@ -30,7 +30,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Brian Health"],
     link: "#",
-    image: "warpeace.jpg",
+    image: "n6.jpg",
   },
 
   {
@@ -38,6 +38,6 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["React", "JavaScript"],
     link: "#",
-    image: "warpeace.jpg",
+    image: "n6.jpg",
   },
 ];
