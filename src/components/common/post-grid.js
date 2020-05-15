@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from "react";
+import { TagRow } from "./";
 import { Link } from "react-router-dom";
 import { Pagination } from "antd";
 
@@ -16,16 +17,30 @@ export default function PostGrid({ posts }) {
   return (
     <>
       <section className='grid-pagination-container'>
-              <section className='post-grid container'>
-                  {paginatedPosts.map((post, index) => (
-                      <div className="post-container">
-                          <figure>
-                              <Link to={post.link}>
-                                  <img src={require(`../../assets/images/${post.image}`)} alt={post.image}/>
-                              </Link>
-                          </figure>
-                      </div>
-                  ))}
+        <section className='post-grid container'>
+          {paginatedPosts.map((post, index) => (
+            <div className='post-container'>
+              <figure>
+                <Link to={post.link}>
+                  <img
+                    src={require(`../../assets/images/${post.image}`)}
+                    alt={post.image}
+                  />
+                </Link>
+              </figure>
+              <TagRow tags={post.categories} />
+              <h2>{post.title}</h2>
+              <p className='author-text'>
+                <span>
+                  By:
+                  <Link to={`/authors/${post.author}`}>{post.author}</Link>
+                </span>
+                <span>- {post.date}</span>
+              </p>
+              <p className='decription-text'>{post.description}</p>
+              <Link to={post.link}>Read More ...</Link>
+            </div>
+          ))}
         </section>
 
         <Pagination
