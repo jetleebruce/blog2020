@@ -6,7 +6,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["React", "JavaScript"],
     link: "#",
-    image: "anyone_can_code.jpg",
+    image: "warpeace.jpg",
   },
 
   {
@@ -14,7 +14,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Tech Cultures"],
     link: "#",
-    image: "cloud_storage.jpg",
+    image: "warpeace.jpg",
   },
 
   {
@@ -22,7 +22,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Tech Cultures"],
     link: "#",
-    image: "programm_languages.jpg",
+    image: "warpeace.jpg",
   },
 
   {
@@ -30,7 +30,7 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["Brian Health"],
     link: "#",
-    image: "neuron.jpg",
+    image: "warpeace.jpg",
   },
 
   {
@@ -38,6 +38,6 @@ export default [
     date: moment().format("MMMM DD, YYYY"),
     categories: ["React", "JavaScript"],
     link: "#",
-    image: "neuron.jpg",
+    image: "warpeace.jpg",
   },
 ];
